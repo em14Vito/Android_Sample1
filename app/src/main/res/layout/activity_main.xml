@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.chouapp.shop.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img2"
+        android:scaleType="centerCrop"
+        android:id="@+id/pp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PACIFIC COFFEE"
+        android:id="@+id/shop_name"
+        android:layout_marginTop="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold|italic"
+        android:textSize="35sp"
+        android:textColor="#35a6e3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us:"
+        android:textSize="15sp"
+        android:layout_above="@+id/tele"
+        android:id="@+id/contact"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:background="#80403c3c"
+        android:textColor="#fefefe"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+12 3456789!"
+        android:textSize="15sp"
+        android:layout_above="@+id/web_site"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tele"
+        android:textColor="#020500"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.example.com"
+        android:id="@+id/web_site"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#000100"
+        android:paddingBottom="5dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Address:\n ABC efg HIG LL"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="5dp"
+        android:id="@+id/addr"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 9:00——17:00"
+        android:layout_above="@+id/addr"
+        android:textSize="15sp"
+        android:id="@+id/work_time"
+        android:textColor="#000000"
+        />
+
+</RelativeLayout>
